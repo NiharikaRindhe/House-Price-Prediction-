@@ -1,4 +1,4 @@
-# # #libraries needed flask , scikit-learn, pandas, pickle-mixin
+ #libraries needed flask , scikit-learn, pandas, pickle-mixin
 # Required libraries
 import pandas as pd
 from flask import Flask, render_template, request
