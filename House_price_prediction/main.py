@@ -1,4 +1,4 @@
- #libraries needed flask , scikit-learn, pandas, pickle-mixin
+#libraries needed flask , scikit-learn, pandas, pickle-mixin
 # Required libraries
 import pandas as pd
 from flask import Flask, render_template, request
@@ -9,7 +9,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load Data and Model
-data = pd.read_csv('Cleaned_data.csv')  # Ensure the file path is correct
+data = pd.read_csv('Cleaned_data.csv')  # Ensure the fi                                                                                                                                                le path is correct
 pipe = pickle.load(open("RidgeModel.pkl", 'rb'))
 
 
